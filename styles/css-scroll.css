@@ -27,37 +27,32 @@
 
 .container .section:nth-child(1) {
     background           : #f00 url(../images/css-scroll/bg1.jpg);
-    background-repeat    : no-repeat;
-    background-size      : cover;
-    background-attachment: fixed;
 }
 
 .container .section:nth-child(2) {
     background           : #0f0 url(../images/css-scroll/bg2.jpg);
-    background-repeat    : no-repeat;
-    background-size      : cover;
-    background-attachment: fixed;
 }
 
 .container .section:nth-child(3) {
     background           : #ff0 url(../images/css-scroll/bg3.jpg);
-    background-repeat    : no-repeat;
-    background-size      : cover;
-    background-attachment: fixed;
 }
 
 .container .section:nth-child(4) {
     background           : #00f url(../images/css-scroll/bg4.jpg);
-    background-repeat    : no-repeat;
-    background-size      : cover;
-    background-attachment: fixed;
 }
 
 .container .section:nth-child(5) {
     background           : #0ff url(../images/css-scroll/bg5.jpg);
-    background-repeat    : no-repeat;
+}
+
+.container .section:nth-child(1) ,
+.container .section:nth-child(2) ,
+.container .section:nth-child(3) ,
+.container .section:nth-child(4) ,
+.container .section:nth-child(5) {
     background-size      : cover;
     background-attachment: fixed;
+    background-repeat    : no-repeat;
 }
 
 .container .section .content {
