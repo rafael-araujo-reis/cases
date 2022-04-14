@@ -1,0 +1,27 @@
+.containerScroll{
+  border: 1px solid #000;
+  height: 20rem;
+  width: 100vw;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  white-space: nowrap;
+}
+.containerScroll .item{
+  border: 1px solid #000;
+
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  display: inline-block;
+}
+.containerScroll .item .contenteItem{
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items    : center;
+}
+.containerScroll .item .contenteItem .imageItem{
+
+}
