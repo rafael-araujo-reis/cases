@@ -1,4 +1,4 @@
-.containerScroll{
+.containerScroll {
   border: 1px solid #000;
   height: 20rem;
   width: 100vw;
@@ -8,7 +8,7 @@
 
   white-space: nowrap;
 }
-.containerScroll .item{
+.containerScroll .item {
   border: 1px solid #000;
 
   border-radius: 50%;
@@ -16,12 +16,11 @@
   height: 10rem;
   display: inline-block;
 }
-.containerScroll .item .contenteItem{
+.containerScroll .item .contenteItem {
   background-color: red;
   display: flex;
   justify-content: center;
-  align-items    : center;
+  align-items: center;
 }
-.containerScroll .item .contenteItem .imageItem{
-
+.containerScroll .item .contenteItem .imageItem {
 }

@@ -1,20 +1,21 @@
-.container{
+.container {
   display: flex;
+  flex-direction: column;
   gap: 2rem;
 
   padding: 2rem;
 }
 
-.card{
+.card {
   border-radius: 1rem;
   padding: 2rem;
 
   background-color: var(--blue-100);
   color: var(--white-100);
-  
+
   transition: 0.3s all;
 }
 
-.card:hover{
+.card:hover {
   background-color: var(--blue-300);
 }

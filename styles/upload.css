@@ -1,5 +1,4 @@
-main{
-
+main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -7,37 +6,37 @@ main{
   padding: 2rem;
 }
 
-h1{
+h1 {
   text-align: center;
   font-size: 4rem;
-  color: var(--blue-300)
+  color: var(--blue-300);
 }
 
-section{
+section {
   display: flex;
-  flex-direction : column;
+  flex-direction: column;
 
   min-height: calc(100vh - 12rem);
   justify-content: center;
-  align-items    : center;
+  align-items: center;
 }
 
-input[type=file]{
-  display: none; 
+input[type="file"] {
+  display: none;
 }
 
-label{
+label {
   display: flex;
   justify-content: center;
-  
+
   cursor: pointer;
-  
+
   border: 1px solid var(--blue-100);
   border-radius: 1rem;
   color: var(--blue-100);
-  
-  width : 100%;
-  
+
+  width: 100%;
+
   padding: 2rem;
   font-size: 1.8rem;
 
@@ -46,7 +45,7 @@ label{
   margin-bottom: 1rem;
 }
 
-label:hover{
+label:hover {
   background-color: var(--blue-100);
   color: var(--white-100);
 }

@@ -1,65 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix | Home</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/netflix.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/netflix.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <a href="#" class="logo"><img src="../images/netflix/logo.png"></a>
+      <a href="#" class="logo"><img src="../images/netflix/logo.png" /></a>
 
-        <ul class="navigation">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">TV Show</a></li>
-            <li><a href="#">Movies</a></li>
-            <li><a href="#">Lastes</a></li>
-            <li><a href="#">My List</a></li>
-        </ul>
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">TV Show</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Lastes</a></li>
+        <li><a href="#">My List</a></li>
+      </ul>
 
-        <div class="search">
-            <input type="text" name="search" id="search" placeholder="Search">
-            <i class="fa fa-search" aria-hidden="true"></i>
-        </div>
+      <div class="search">
+        <input type="text" name="search" id="search" placeholder="Search" />
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </div>
     </header>
 
     <div class="banner">
-        <img src="../images/netflix/bg.jpg" class="bg" alt="">
-        <div class="content">
-            <img src="../images/netflix/name.png" class="movieTitle" alt="">
-            <h4>
-                <span>2020</span>
-                <span><i>12+</i></span>
-                <span>2h 7min</span>
-                <span>Drama</span>
-            </h4>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente alias provident eius ipsam ea nam
-                cupiditate aut accusantium ullam modi distinctio amet quo consequatur adipisci qui cumque earum itaque
-                asperiores deserunt dignissimos ut, maiores id iusto nesciunt? Excepturi tempora recusandae quisquam non
-                provident doloribus! Dolores laborum exercitationem ab esse accusamus aspernatur, nulla animi ex est
-                repellendus voluptatibus cum ea natus.
-            </p>
+      <img src="../images/netflix/bg.jpg" class="bg" alt="" />
+      <div class="content">
+        <img src="../images/netflix/name.png" class="movieTitle" alt="" />
+        <h4>
+          <span>2020</span>
+          <span><i>12+</i></span>
+          <span>2h 7min</span>
+          <span>Drama</span>
+        </h4>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente
+          alias provident eius ipsam ea nam cupiditate aut accusantium ullam
+          modi distinctio amet quo consequatur adipisci qui cumque earum itaque
+          asperiores deserunt dignissimos ut, maiores id iusto nesciunt?
+          Excepturi tempora recusandae quisquam non provident doloribus! Dolores
+          laborum exercitationem ab esse accusamus aspernatur, nulla animi ex
+          est repellendus voluptatibus cum ea natus.
+        </p>
 
-            <div class="buttons">
-                <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
-                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
-            </div>
+        <div class="buttons">
+          <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
+          <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
         </div>
-        <a class="play" onclick="toggleVideo();"><img src="../images/play.png" alt="">Watch Trailer</a>
+      </div>
+      <a class="play" onclick="toggleVideo();"
+        ><img src="../images/play.png" alt="" />Watch Trailer</a
+      >
     </div>
     <div class="trailer">
-        <video src="../images/netflix/trailler.mp4" controls="true"></video>
-        <img src="../images/close.png" class="close" onclick="toggleVideo()">
+      <video src="../images/netflix/trailler.mp4" controls="true"></video>
+      <img src="../images/close.png" class="close" onclick="toggleVideo()" />
     </div>
-</body>
+  </body>
 
-<script src="../script/netflix.js"></script>
-
+  <script src="../script/netflix.js"></script>
 </html>
