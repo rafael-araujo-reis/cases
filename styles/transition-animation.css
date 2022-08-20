@@ -1,0 +1,110 @@
+body {
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+
+  padding: 5rem;
+}
+
+.content {
+  width: 100%;
+}
+
+.balls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ball {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.ball:hover {
+  background-color: #fff;
+  transition-property: background-color, width, height;
+  transition-duration: 1s;
+
+  width: 20rem;
+  height: 20rem;
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+  transition-duration: all 2s linear 2s;
+}
+
+.green:hover {
+  transition: all 1s cubic-bezier(0.29, 1.01, 1, -0.68);
+  /* background-color: rgb(255, 255, 255); */
+  border-radius: 0.8rem;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.delay {
+  transition-delay: 2s;
+}
+
+.lines {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-end;
+  height: 20rem;
+
+  margin-top: 3rem;
+}
+
+.line {
+  background-color: #fff;
+  margin-top: 1rem;
+  width: 10rem;
+  height: 2rem;
+  transition: height;
+
+  transition-duration: 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body:hover .line {
+  height: 20rem;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.ease {
+  transition-timing-function: ease;
+}
+
+.ease-in {
+  transition-timing-function: ease-in;
+}
+
+.ease-out {
+  transition-timing-function: ease-out;
+}
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+
+.cube {
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
